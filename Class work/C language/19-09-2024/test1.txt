@@ -1,0 +1,3 @@
+
+ HEllo this is write method
+ HEllo this is appned method
