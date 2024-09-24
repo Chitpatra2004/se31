@@ -9,12 +9,13 @@ int main()
 
     int i = 1;
     // Loop to multiply the values into the result
-    while (i <= n) {
-        result = result * i; // Perform multiplication
-        i = i + 1;
+    while (i <= n)
+	{
+    result = result * i; // Perform multiplication
+    i = i + 1;
     }
 
     printf("Product of numbers from 1 to %d is %d\n", n, result);
 
-    return 0;
+   
 }

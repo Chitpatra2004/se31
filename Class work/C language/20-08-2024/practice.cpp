@@ -9,12 +9,13 @@ int main()
 
     int i = 1;
     // Loop to subtract the values from the result
-    while (i <= n) {
-        result = result - i; // Perform subtraction
-        i = i + 1;
+    while (i <= n) 
+	{
+    result = result - i; // Perform subtraction
+    i = i + 1;
     }
-
+	
     printf("%d\n", result);
 
-    return 0;
+   
 }

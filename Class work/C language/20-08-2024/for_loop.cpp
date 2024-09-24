@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int k = 10;
 
     // For loop to print numbers from 0 to 9
-    for (int i = 0; i < k; i++) {
-        printf("%d\n", i);
+    for (int i = 0; i < k; i++)
+	{
+    printf("%d\n", i);
     }
     
     // Re-initialize i to 0 for subsequent loops
@@ -13,8 +15,8 @@ int main() {
     
     // While loop to print "while" if conditions are met
     while (k > i && i <= 5) {
-        printf("%s\n", "while");
-        i++;  // Increment i to avoid an infinite loop
+    printf("%s\n", "while");
+    i++;  // Increment i to avoid an infinite loop
     }
 
     // Do-while loop to print "dowhile"
